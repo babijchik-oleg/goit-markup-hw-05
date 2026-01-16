@@ -636,7 +636,7 @@ box-sizing: border-box;
 }
     
 .modal-input:focus + .modal-icon {
-    border-color: #4d5ae5;
+   fill: #4d5ae5;
 }
 
 .modal-icon {
@@ -650,7 +650,7 @@ box-sizing: border-box;
 
 .modal-input-wrapper {
     position: relative;
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 }
 
 
