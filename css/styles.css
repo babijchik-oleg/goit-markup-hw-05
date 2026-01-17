@@ -598,6 +598,7 @@ padding: 72px 24px 24px 24px;
 }
 
 .modal-title {
+    margin-bottom: 16px;
    font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -653,7 +654,20 @@ box-sizing: border-box;
     margin-bottom: 8px;
 }
 
-
+.modal-text-area{
+    border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px;
+width: 100%;
+height: 120px;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color: rgba(46, 47, 66, 0.4);
+background-color: transparent;
+resize: none;
+padding: 8px 16px;
+}
 
 
 
