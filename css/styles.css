@@ -604,6 +604,7 @@ color: #fff;
 .footer-subscribe {
 min-width: 453px;
 height: 80px;
+margin-left: auto;
 }
 
 
@@ -616,12 +617,15 @@ height: 80px;
 
 .footer-form-btn {
 border-radius: 4px;
-margin: auto;
 width: 165px;
 height: 40px;
   display: block;
     margin: auto;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5;
 font-weight: 500;
@@ -639,7 +643,11 @@ background: #31d0aa;
 
 .footer-btn-subscribe {
     fill: #fff;
+    width: 24px;
+    height: 24px;
 }
+
+/*         overlay          */
 
 .overlay {
     position: fixed;
@@ -794,7 +802,7 @@ margin-bottom: 24px;
 }
 
 
-a {
+.modal-check-label a {
     line-height: 1.33333;
 text-decoration: underline;
 text-decoration-skip-ink: none;
